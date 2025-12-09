@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="mb-20">
     <NavBar />
   </div>
 </template>
