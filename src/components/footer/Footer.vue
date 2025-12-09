@@ -136,25 +136,6 @@ export default {
               <div
                 class="w-20 h-20 bg-white rounded flex-shrink-0 flex items-center justify-center"
               >
-                <!-- <div
-                  class="w-16 h-16 bg-black"
-                  style="
-                    background-image: repeating-linear-gradient(
-                        0deg,
-                        white 0px,
-                        white 2px,
-                        black 2px,
-                        black 4px
-                      ),
-                      repeating-linear-gradient(
-                        90deg,
-                        white 0px,
-                        white 2px,
-                        black 2px,
-                        black 4px
-                      );
-                  "
-                ></div> -->
                 <img src="../../assets/images/qrcode.jpg" alt="qrcode" />
               </div>
 
