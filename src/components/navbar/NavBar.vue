@@ -10,7 +10,7 @@ export default {
 <template>
   <div>
     <!-- Top Banner -->
-    <div class="bg-black text-white text-xs py-2 px-4">
+    <div class="bg-black text-white text-xs py-2">
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <div class="flex-1"></div>
         <div class="text-center">
@@ -27,7 +27,7 @@ export default {
 
     <!-- Main Navbar -->
     <nav class="bg-white border-b border-gray-200">
-      <div class="max-w-7xl mx-auto px-4">
+      <div class="max-w-7xl mx-auto">
         <div class="flex items-center justify-between h-16">
           <!-- Logo -->
           <div class="text-2xl font-bold">Exclusive</div>

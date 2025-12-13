@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <div class="mb-20">
+  <div class="mb-20 px-[80px]">
     <NavBar />
     <HeroSection />
   </div>
