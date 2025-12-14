@@ -1,4 +1,6 @@
 <script>
+import CountDown from "@/components/homefolder/CountDown.vue";
+import Heading from "@/components/homefolder/Heading.vue";
 import HeroSection from "@/components/homefolder/HeroSection.vue";
 import NavBar from "@/components/navbar/NavBar.vue";
 
@@ -7,6 +9,8 @@ export default {
   components: {
     NavBar,
     HeroSection,
+    Heading,
+    CountDown,
   },
 };
 </script>
@@ -15,5 +19,7 @@ export default {
   <div class="mb-20 px-[80px]">
     <NavBar />
     <HeroSection />
+    <Heading />
+    <CountDown />
   </div>
 </template>
