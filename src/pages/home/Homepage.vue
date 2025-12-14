@@ -20,6 +20,8 @@ export default {
     <NavBar />
     <HeroSection />
     <Heading />
-    <CountDown />
+    <div class="mt-10">
+      <CountDown />
+    </div>
   </div>
 </template>
