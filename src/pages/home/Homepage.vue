@@ -2,6 +2,7 @@
 import CountDown from "@/components/homefolder/CountDown.vue";
 import Heading from "@/components/homefolder/Heading.vue";
 import HeroSection from "@/components/homefolder/HeroSection.vue";
+import Product from "@/components/homefolder/Product.vue";
 import NavBar from "@/components/navbar/NavBar.vue";
 
 export default {
@@ -11,6 +12,7 @@ export default {
     HeroSection,
     Heading,
     CountDown,
+    Product,
   },
 };
 </script>
@@ -24,6 +26,9 @@ export default {
     </div>
     <div class="mt-10">
       <CountDown :endTime="Date.now() + 86400000" />
+    </div>
+    <div class="mt-10">
+      <Product />
     </div>
   </div>
 </template>

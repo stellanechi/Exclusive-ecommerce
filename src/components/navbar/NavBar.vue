@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="">
     <!-- Top Banner -->
     <div class="bg-black text-white text-xs py-2">
       <div class="max-w-7xl mx-auto flex justify-between items-center">
