@@ -4,6 +4,7 @@ import Heading from "@/components/homefolder/Heading.vue";
 import HeroSection from "@/components/homefolder/HeroSection.vue";
 import Product from "@/components/homefolder/Product.vue";
 import NavBar from "@/components/navbar/NavBar.vue";
+import ViewAllButton from "@/components/ViewAllButton.vue";
 
 export default {
   name: "Homepage",
@@ -13,6 +14,7 @@ export default {
     Heading,
     CountDown,
     Product,
+    ViewAllButton,
   },
 };
 </script>
@@ -30,5 +32,9 @@ export default {
     <div class="mt-10">
       <Product />
     </div>
+    <div>
+      <ViewAllButton title="View All Products" @click="handleViewAll" />
+    </div>
+    <!-- <span class="border-b border-solid border-amber-600"></span> -->
   </div>
 </template>
