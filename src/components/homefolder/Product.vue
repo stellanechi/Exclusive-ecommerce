@@ -41,7 +41,7 @@ export default {
   },
 
   mounted() {
-    this.fetchEvents(8);
+    this.fetchEvents(4);
   },
 };
 </script>
