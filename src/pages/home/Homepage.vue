@@ -19,9 +19,11 @@ export default {
   <div class="mb-20 px-[80px]">
     <NavBar />
     <HeroSection />
-    <Heading />
+    <div class="mt-14">
+      <Heading />
+    </div>
     <div class="mt-10">
-      <CountDown />
+      <CountDown :endTime="Date.now() + 86400000" />
     </div>
   </div>
 </template>

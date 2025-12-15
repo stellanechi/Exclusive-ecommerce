@@ -1,10 +1,13 @@
 <script>
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/solid";
+// import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/solid";
+// import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/24/solid";
+// import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/solid";
+
 export default {
   name: "FlashSalesCountdown",
   components: {
-    ChevronLeftIcon,
-    ChevronRightIcon,
+    // ChevronLeftIcon,
+    // ChevronRightIcon,
   },
   props: {
     endTime: {
@@ -70,26 +73,26 @@ export default {
 <template>
   <div class="flex items-center justify-between w-full">
     <!-- Left -->
-    <div class="flex items-center space-x-6">
+    <div class="flex items-center space-x-8">
       <h2 class="text-2xl font-semibold text-gray-900">Flash Sales</h2>
 
       <!-- Countdown -->
       <div class="flex items-center space-x-4">
         <div class="text-center">
-          <p class="text-xs text-gray-500">Days</p>
-          <p class="text-2xl font-bold">{{ timeLeft.days }}</p>
+          <p class="text-xs font-bold">Days</p>
+          <p class="text-xl font-bold">{{ timeLeft.days }} :</p>
         </div>
         <div class="text-center">
-          <p class="text-xs text-gray-500">Hours</p>
-          <p class="text-2xl font-bold">{{ timeLeft.hours }}</p>
+          <p class="text-xs font-bold">Hours</p>
+          <p class="text-xl font-bold">{{ timeLeft.hours }} :</p>
         </div>
         <div class="text-center">
-          <p class="text-xs text-gray-500">Minutes</p>
-          <p class="text-2xl font-bold">{{ timeLeft.minutes }}</p>
+          <p class="text-xs font-bold">Minutes</p>
+          <p class="text-xl font-bold">{{ timeLeft.minutes }} :</p>
         </div>
         <div class="text-center">
-          <p class="text-xs text-gray-500">Seconds</p>
-          <p class="text-2xl font-bold text-red-500">
+          <p class="text-xs font-bold">Seconds</p>
+          <p class="text-xl font-bold">
             {{ timeLeft.seconds }}
           </p>
         </div>
@@ -98,17 +101,11 @@ export default {
 
     <!-- Right -->
     <div class="flex items-center space-x-2">
-      <button
-        @click="prev"
-        class="w-9 h-9 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-100"
-      >
-        <ChevronLeftIcon class="w-5 h-5 text-gray-600" />
+      <button @click="prev" class="w-9 h-9 flex items-center justify-center">
+        <img src="../../assets/images/Left-Arrow.png" alt="left arrow" />
       </button>
-      <button
-        @click="next"
-        class="w-9 h-9 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-100"
-      >
-        › <ChevronRightIcon class="w-5 h-5 text-gray-600" />
+      <button @click="next" class="w-9 h-9 flex items-center justify-center">
+        <img src="../../assets/images/Right-Arrow.png" alt="right arrow" />
       </button>
     </div>
   </div>
