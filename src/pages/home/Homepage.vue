@@ -16,6 +16,11 @@ export default {
     Product,
     ViewAllButton,
   },
+  methods: {
+    handleViewAll() {
+      console.log("View all clicked");
+    },
+  },
 };
 </script>
 
@@ -32,7 +37,7 @@ export default {
     <div class="mt-10">
       <Product />
     </div>
-    <div>
+    <div class="mt-10">
       <ViewAllButton title="View All Products" @click="handleViewAll" />
     </div>
     <!-- <span class="border-b border-solid border-amber-600"></span> -->

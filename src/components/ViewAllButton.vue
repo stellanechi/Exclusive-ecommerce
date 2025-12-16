@@ -2,9 +2,9 @@
 export default {
   name: "ViewAllButton",
   props: {
-    Title: {
+    title: {
       type: String,
-      default: null,
+      default: "View All",
     },
   },
 };
@@ -14,10 +14,10 @@ export default {
   <div class="flex items-center">
     <button
       type="button"
-      class="py-2.5 px-6 text-sm rounded-lg bg-red-500 text-white cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 hover:bg-red-700"
+      class="py-2.5 px-6 text-sm rounded-lg bg-[#DB4444] text-white cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 hover:bg-red-700"
       @click="$emit('click')"
     >
-      {{ Title }}
+      {{ title }}
     </button>
   </div>
 </template>
