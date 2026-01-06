@@ -37,7 +37,7 @@ export default {
     <div class="mt-10">
       <Product />
     </div>
-    <div class="mt-10">
+    <div class="mt-20">
       <ViewAllButton title="View All Products" @click="handleViewAll" />
     </div>
     <!-- <span class="border-b border-solid border-amber-600"></span> -->
