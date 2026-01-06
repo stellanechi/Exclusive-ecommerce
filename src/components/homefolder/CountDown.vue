@@ -1,14 +1,7 @@
 <script>
-// import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/solid";
-// import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/24/solid";
-// import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/solid";
-
 export default {
   name: "FlashSalesCountdown",
-  components: {
-    // ChevronLeftIcon,
-    // ChevronRightIcon,
-  },
+  components: {},
   props: {
     endTime: {
       type: [String, Number, Date],
